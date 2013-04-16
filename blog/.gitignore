@@ -1,0 +1,25 @@
+# os/app generated files
+Thumbs.db
+.DS_Store
+*.esproj
+*.log
+*.gz
+
+# env
+/anchor/config/dev
+
+# generated config
+/anchor/config/application.php
+/anchor/config/app.php
+/anchor/config/database.php
+/anchor/config/db.php
+
+# user mod_rewrite
+/.htaccess
+
+# debug and custom themes
+/themes/*
+!/themes/default
+
+# phpunit tests
+/tests
